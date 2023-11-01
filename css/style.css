@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --para: 'Roboto', sans-serif;
+    --heading: 'Onest', sans-serif;
+}
+
+/* layout start here  */
+
+
+
+/* header start here  */
+.header{
+    background:url(../images/undefined\ -\ Imgur\ \(4\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+padding-bottom: 2.5rem;
+ 
+}
+
+.real-aap{
+    margin-top: 2rem;
+    color: white;
+}
+.real-aap h5{
+    font-family: var(--para);
+}
+.real-aap span{
+    color: #d1d1d1;
+}
+.real-aap h2{
+    margin-top: 10rem;
+   font-family: var(--heading);
+   font-weight: bold;
+}
+.real-aap p{
+    font-family: var(--para);
+}
+.real-aap-image{
+    margin-top: 2.5rem;
+}
+.real-aap-image img{
+    max-width: 90%;
+    height: auto;
+}
+/* header end here  */
+
+ /* section real aap first start here   */
+.user {
+    background-image: url(../images/round-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    padding: 10rem 0rem;
+    text-align: center;
+}
+.real-section-first{
+    margin-top: 7rem;
+   
+}
+.user p{
+    font-family: var(--para);
+}
+.user hr{
+    width: 12%;
+    color: red;
+    margin: auto;
+    font-size: 20%;
+}
+ /* section real aap first ENd here   */
+
+ /* section second start here  */
+
+.section-second{
+    background-image: url(../images/back-picture.png);
+    /* margin-bottom: 10rem; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 9rem;
+    margin-top: 9rem;
+}
+
+ .second-col img{
+   margin-left: 4rem;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+
+ }
+ .second-col .wath{
+    width: 32%;
+ }
+ .second-col{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px rgb(181, 181, 181);
+    padding: 2rem;
+ }
+ .second-col h1{
+    font-family: var(--heading);
+    font-weight: bold;
+ }
+ .second-col p{
+    font-family: var(--para);
+ }
+
+.image-sec{
+    
+}
+ .image-sec img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 5rem
+ }
+.video-reel h1{
+    position: relative;
+    bottom: 5rem;
+}
+.video-reel p{
+    position: relative;
+    bottom: 5rem;
+}
+.video-reel button{
+    position: relative;
+    bottom: 4rem;
+    border: none;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(rgb(241,40,68),rgb(244,64,58));
+    
+    color: white;
+    font-size: 1.2rem
+}
+ .video-reel{
+    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px rgb(181, 181, 181);
+    padding: 0rem 2rem;
+    margin-bottom: 8rem;
+ }
+ .section-video{
+    margin-top: 12rem;
+ }
+ .app{
+    color: red;
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+ }
+ /* section second End here */
+
+
+ /* section three start here */
+
+ .section-three{
+    margin-top: 3rem;
+    background-image: url(../images/women\ back\ -pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8rem;
+    
+ }
+ /* section three End here */
+
+
+
+
+
+.section-four{
+    text-align: center;
+    margin: auto;
+}
+ .col-four{
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px rgb(181, 181, 181);
+    padding: 0rem 2rem;
+ }
+ .col-four p{
+    /* width: 35%; */
+
+ }
+ .col-four img{
+    max-width: 100%;
+    height: auto;
+ }
+
+
+ /* section four start here  */
+ .section-five{
+    background-image: url(../images/form-back-pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 25rem 0rem; */
+    padding-bottom: 5rem;
+ }
+ .col-five{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 40%;
+    margin-top: 6rem;
+    padding: 2rem;
+    
+ }
+ .col-five input{
+    border: none;
+    width: 100%;
+    background: transparent;
+    
+ }
+ .col-five h1{
+    font-family: var(--heading);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+ }
+ .col-five p{
+    text-align: center;
+    font-family: var(--para);
+    margin-top: 3.5rem;
+    margin-bottom: 0rem;
+ }
+ .col-five h4{
+    text-align: center;
+    font-size: 1rem;
+ }
+
+
+
+ .section-six{
+    background-color: rgb(111,66,193);
+    padding: 8rem 0rem;
+ }
+.col-app h3{
+    color: white;
+    font-family: var(--heading);
+    font-weight: bold;
+}
+ .col-app ul{
+    padding-left: 0rem;
+ }
+ .col-app ul li{
+    list-style: none;
+    margin-top: 0.5rem;
+ }
+ .col-app ul li a{
+    text-decoration: none;
+    color: rgb(199, 197, 197);
+    font-family: var(--para);
+ }
+
+ .col-icon{
+    margin-top: 5rem;
+ }
+ .col-icon i{
+    font-size: 1.7rem;
+   margin-right: 0.5rem;
+    color: white;
+ }
+ .col-icon span{
+    font-size: 0.8rem;
+    color: white;
+ }
+ .col-icon p{
+    font-size: 0.8rem;
+    color: white;
+ }
+
+ .col-form h4{
+    color: white;
+    font-family: var(--heading);
+    font-weight: bold;
+ }
+ .col-form p{
+    font-family: var(--para);
+    color: white;
+ }
+ .col-form #email{
+    border: none;
+    padding: 0.5rem 0rem;
+    border-radius: 1rem;
+    text-align: center
+
+ }
+ .col-form #submit{
+    border: none;
+    padding: 0.5rem 1.7rem;
+    border-radius: 1rem;
+    color: rgb(167, 167, 167)
+ }
+.card{
+    margin-right: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.card img{
+ 
+    max-width: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 2rem
+}
+.card-body h5{
+    font-family: var(--heading);
+    font-weight: bold;
+}
+.card-body p{
+    font-family: var(--para);
+}
+.section-three .button{
+ padding-top: 5rem;
+    
+}
+.section-three .button button{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+font-family: var(--para);
+background-color: #999935;
+    color: white
+}
+.section-three .button button:hover{
+    color: black;
+    background-color: white;
+}
+
+ /* Media quary start here  */
+ @media(max-width:1080px){
+    .user {
+       
+        padding: 8rem 0rem;
+    }
+ }
+ @media(max-width:991px){
+    .user {
+        padding: 5rem 0rem;
+    }.user h1{
+        font-size: 1.5rem;
+    }.second-col img {
+        margin-left: 0rem;
+       
+    }.second-col .wath {
+        width: 60%;
+    }.image-sec img {
+      
+        bottom: 4rem;
+    }.col-form #email {
+      
+        margin-bottom: 1rem;
+    }
+ }
+ @media(max-width:767px){
+    .user {
+    
+        max-width: 69%;
+        margin: auto;
+        padding: 10rem 0rem;
+    }.second-col {
+       
+        margin-bottom: 3rem;
+    }.col-five {
+      
+        width: 77%;
+        
+    }.col-app{
+        margin-bottom: 4rem;
+    }.section-six {
+      
+        padding: 3rem 0rem;
+    }.col-icon {
+        margin-top: 0rem;
+    }.col-app ul li {
+       
+        margin-right: 1rem;
+    
+    }
+ }
+ @media(max-width:460px){
+    .user {
+        max-width: 61%;
+        padding: 7rem 0rem;
+    }
+ }
+ @media(max-width:368px){
+    .user {
+       
+        padding: 5rem 0rem;
+    }.col-form #email{
+        width: 94%;
+    font-size: 0.7rem;
+    }
+ }
+
+ @media(max-width:412px){
+    .user {
+       
+        padding: 6rem 0rem
+ }.col-app{
+    margin-bottom: 4rem;
+ }.col-five {
+   
+    width: 75%;
+   
+}
+ }
+ @media(max-width:912px){
+    .col-five {
+       
+        width: 60%;
+     
+    }
+ }
+
+ @media(max-width:360px){
+    .user {
+        padding: 5rem 0rem;
+    }.col-five {
+        width: 82%;
+    }
+ }
